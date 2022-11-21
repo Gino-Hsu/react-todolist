@@ -46,7 +46,7 @@ const StyledInputContainer = styled.div`
       font-size: 13px;
     }
   }
-  $.active {
+  &.active {
     input::placeholder {
       color: var(--gray);
     }
@@ -67,7 +67,7 @@ const StyledAddTodoActionContainer = styled.div`
     }
   }
 `;
-const TodoInput = () => {
+const TodoInput = ({ inputValue, onChange, onKeyDown, onAddTodo }) => {
   return (
     <StyledAddTodoContainer>
       <StyledLabelIcon className="icon" htmlFor="add-todo-input" />

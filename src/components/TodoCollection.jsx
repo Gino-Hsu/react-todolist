@@ -1,14 +1,17 @@
 import TodoItem from './TodoItem';
 
-const TodoCollection = () => {
+const TodoCollection = ({
+  todos,
+  inputValue,
+  onChange,
+  onKeyDown,
+  onAddTodo,
+}) => {
   return (
     <div>
-      TodoCollection
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      {todos.map((todo) => {
+        return <TodoItem key={todo.id} todo={todo} />;
+      })}
     </div>
   );
 };
