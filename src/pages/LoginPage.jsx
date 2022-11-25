@@ -4,7 +4,7 @@ import {
   AuthButton,
   AuthLinkText,
 } from 'components/common/auth.styled';
-import { ACLogoIcon } from 'assets/images';
+import { ACLogoIcon } from 'assets/images/';
 import { AuthInput } from 'components';
 
 const LoginPage = () => {
