@@ -6,12 +6,7 @@
 
 以 React 進行開發，功能包含新增todo、切換完成/未完成、點擊兩下編輯 todo、刪除 todo。
 
-完成的元件包含：
-
-Header
-Main (Register & Cart)
-Footer
-使用指南
+## 使用指南
 將專案 clone 至本地，至終端機輸入：
 
 1. clone 專案：
@@ -34,3 +29,10 @@ Footer
    ```
    ctrl + c
    ```
+
+## 專案路由
+
+- /login 登入頁
+- /signup 註冊頁
+- /todos Todo頁
+- /* 首頁
