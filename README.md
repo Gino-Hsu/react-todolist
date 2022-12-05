@@ -14,12 +14,23 @@ Footer
 使用指南
 將專案 clone 至本地，至終端機輸入：
 
-git clone https://github.com/Gino-Hsu/react-todolist.git
-執行專案，輸入：
+1. clone 專案：
+   ```
+   git clone https://github.com/Gino-Hsu/react-todolist.git
+   ```
+2. 安裝相關套件：
+   ```
+   npm install
+   ```
 
-npm start
-瀏覽器 "http://localhost:3000" ，可瀏覽此專案。
+2. 執行專案，輸入：
+   ```
+   npm start
+   ```
+   
+3. 瀏覽器 "http://localhost:3000" ，可瀏覽此專案。
 
-停止使用，至終端機：
-
-ctrl + c
+4. 停止使用，至終端機：
+   ```
+   ctrl + c
+   ```
